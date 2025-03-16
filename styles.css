@@ -29,9 +29,8 @@ body{
     margin-left: 48rem;
 }
 
-.profile-logo img{
-    width: 40px;
-    height: 40px;
+#profile-btn img{
+    background-color: #0a0a0a;
 }
 
 li{
@@ -76,9 +75,6 @@ a{
     padding-top: 0.5rem;
 }
 
-.content-img{
-    /* background-color: aqua; */
-}
 
 #inquire-btn{
     height: 45px;
@@ -89,4 +85,10 @@ a{
     color: rgb(255, 255, 255);
     background-color: #e4bc37;
     margin-top: 1.2rem;
+}
+
+.modal1{
+    width: 400px;
+    height: 520px;
+    padding: 90px;
 }

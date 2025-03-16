@@ -24,9 +24,14 @@
             </div> -->
         </ul>
         <div class="profile-logo">
-        <img src="images/profile_logo.png"alt="Analytics">
+        <button id="profile-btn"><img src="images/profile_logo.png"alt="Analytics"></button>
         </div>
     </div>
+
+    <dialog id="user-modal" class="modal1" open>
+        <h2>Sign Up</h2>
+        <h2>Login</h2>
+    </dialog>
 
     <div class="content-container">
         <div class="content-txt">
@@ -38,6 +43,6 @@
             <img src="images/analytics_bg.png"alt="Analytics">
         </div>
     </div>
-    
+    <script src="script1.js"></script>
 </body>
 </html>
