@@ -8,27 +8,21 @@
 </head>
 <body>
     <div class="nav-bar">
-        <ul>
-            <!-- <div class="left-link">
-                <h2>Byte Metrics</h2>
-            </div> -->
-            <div class="right-links">
-            <li><a href="">Home</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="">Login</a></li>
-            <!-- <div class="profile-logo">
-                <img src="images/profile_logo.png"alt="Analytics">
-            </div> -->
-        </ul>
-        <div class="profile-logo">
-        <button id="profile-btn"><img src="images/profile_logo.png"alt="Analytics"></button>
-        </div>
-    </div>
+         <ul>
+             <div class="right-links">
+             <li><a href="">Home</a></li>
+             <li><a href="">Services</a></li>
+             <li><a href="">About</a></li>
+             <li><a href="">Contact</a></li>
+             <li><a href="">Login</a></li>
+             <li><a href="">Signup</a></li>
+         </ul>
+         <!-- <div class="profile-logo">
+            <img src="images/profile_logo.png" alt="Analytics">
+         </div> -->
+     </div>
 
-    <dialog id="user-modal" class="modal1" open>
+    <dialog id="user-modal" class="modal1">
         <h2>Sign Up</h2>
         <h2>Login</h2>
     </dialog>
@@ -43,6 +37,6 @@
             <img src="images/analytics_bg.png"alt="Analytics">
         </div>
     </div>
-    <script src="script1.js"></script>
+    <!-- <script src="script1.js"></script> -->
 </body>
 </html>
