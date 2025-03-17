@@ -9,21 +9,22 @@ body{
 }
 
 .nav-bar{
+    display: flex;
     width: 100%;
     height: 80px;
+    /* background-color: aqua; */
 }
-
 .right-links{
     display: flex;
-    gap: 2rem;
+    gap: 3rem;
     font-size: 18px;
+    padding-left: 130%;
     padding-top: 35px;
-    padding-right: 10px;
-    background-color: #e4bc37;
 }
 
 li{
     list-style-type: none;
+
 }
 
 a{
@@ -62,7 +63,6 @@ a{
     font-size: 18px;
     padding-top: 0.5rem;
 }
-
 
 #inquire-btn{
     height: 45px;
