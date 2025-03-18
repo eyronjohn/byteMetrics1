@@ -14,18 +14,18 @@
              <li><a href="">Services</a></li>
              <li><a href="">About</a></li>
              <li><a href="">Contact</a></li>
-             <li><a href="">Login</a></li>
-             <li><a href="">Signup</a></li>
+             <li><a href="login.php">Login</a></li>
+             <li><a href="signup.php">Signup</a></li>
          </ul>
          <!-- <div class="profile-logo">
             <img src="images/profile_logo.png" alt="Analytics">
          </div> -->
      </div>
 
-    <dialog id="user-modal" class="modal1">
+    <!-- <dialog id="user-modal" class="modal1">
         <h2>Sign Up</h2>
         <h2>Login</h2>
-    </dialog>
+    </dialog> -->
 
     <div class="content-container">
         <div class="content-txt">

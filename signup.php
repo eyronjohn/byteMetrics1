@@ -9,13 +9,13 @@
 <body>
     <div class="form-container">
         <div class="container">
-            <form action="">
+            <form action="conn.php" method="POST">
                 <h1 id="title">Create Account</h1>
                 <div id="divider"></div>
-                <input type="text" name="" placeholder="Username" class="username">
-                <input type="email" name="" placeholder="Email Address" class="emailAdd">
-                <input type="password" name="" placeholder="Password" class="password">
-                <input type="password" name="" placeholder="Confirm Password" class="password">
+                <input type="text" id="username" name="username" placeholder="Username" class="username" required>
+                <input type="email" id="email" name="email" placeholder="Email Address" class="emailAdd">
+                <input type="password" id="password" name="password" placeholder="Password" class="password">
+                <input type="password" id="password" name="password" placeholder="Confirm Password" class="password">
 
                 <input type="submit" value="Signup">
                 <label for="">Already have an account? <span id="sign">Sign In Now</span></label>
