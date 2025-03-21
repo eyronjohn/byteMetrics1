@@ -1,3 +1,11 @@
+<?php
+
+session_start();
+if (isset($_SESSION['errors'])) {
+  $errors = $_SESSION['errors'];
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,20 +17,27 @@
 <body>
     <div class="form-container">
         <div class="container">
-            <form action="">
+        <?php
+               if (isset($errors['login'])) {
+              echo '<div class="error-main">
+                    <p>' . $errors['login'] . '</p>
+                    </div>';
+                unset($errors['login']);
+                }
+              ?>
+            <form action="user_acc.php" method="POST">
                 <h1 id="title">Login</h1>
                 <div id="divider2"></div>
-                <input type="email" name="" placeholder="Email Address" class="emailAdd">
-                <input type="password" name="" placeholder="Password" class="password"><br>
+                <input type="email" name="email" placeholder="Email Address" class="emailAdd">
+                <input type="password" name="password" placeholder="Password" class="password"><br>
 
                 <label for="" id="remember"><input type="checkbox" name=""> Remember Me</label>
                 <label for="" id="sign">Forgot Password</label>
                 
-                <input type="submit" value="Login" id="login"><br>
+                <input type="submit" name="login" value="Login" id="login"><br>
                 <label for="" id="acc">Don't have an account? <span id="sign">Sign Up Now</span></label>
             </form>
         </div>
     </div>
-    
 </body>
 </html>
