@@ -14,11 +14,20 @@ body{
     height: 80px;
     /* background-color: aqua; */
 }
+
 .right-links{
     display: flex;
     gap: 3rem;
     font-size: 18px;
     padding-left: 130%;
+    padding-top: 35px;
+}
+
+.right-links2{
+    display: flex;
+    gap: 3rem;
+    font-size: 18px;
+    padding-left: 260%;
     padding-top: 35px;
 }
 
@@ -73,4 +82,21 @@ a{
     color: rgb(255, 255, 255);
     background-color: #e4bc37;
     margin-top: 1.2rem;
+}
+
+/* not yet finish        */
+#profile-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px; /* Adjust as needed */
+    height: 40px;
+    background-color: #e4bc37;
+    border-radius: 50%; /* Optional: Makes it circular */
+}
+
+#profile-logo img {
+    max-width: 100%;
+    height: auto;
+    width: 30px; /* Adjustable */
 }

@@ -94,3 +94,13 @@ input[type="submit"]{
     color: #286696;
 }
 
+.error-main{
+    background-color: red;
+    width: 120px;
+    height: 80px;
+}
+
+.error-main p{
+    color:white;
+    text-align:center;
+}
